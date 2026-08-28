@@ -1,4 +1,4 @@
-module github.com/cyborgvova/greetings/greetings_server
+module github.com/cyborgvova/greetings/greeting_server
 
 go 1.25.10
 
