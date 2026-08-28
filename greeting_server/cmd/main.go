@@ -10,6 +10,12 @@ import (
     echo "github.com/labstack/echo/v5"
 )
 
+type GreetingResponse struct {
+    Message     string          `json:"message"`
+    Code        int             `json:"code"`
+    Timestamp   string          `json:"timestamp,omitempty"`
+}
+
 // Greetings add value from query parameter name and write to request
 // greetings as string. Return nil by success, and error if any error
 // detected
@@ -19,7 +25,13 @@ func Greetings(c *echo.Context) error {
        name = "Незнакомец"
     }
 
-    return c.JSON(http.StatusOK, map[string]string{"message": fmt.Sprintf("Привет, %s!!!", name)})
+    response := GreetingResponse{
+        Message:    fmt.Sprintf("Привет, %s!!!", name),
+        Code:       http.StatusOK,
+        Timestamp:  time.Now().Format(time.RFC3339),
+    }
+
+    return c.JSON(http.StatusOK, response)
 }
 
 func main() {
