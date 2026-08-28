@@ -1,4 +1,5 @@
-// simple
+// Simple server with one handler, which greetings user by name given
+// as query parameter
 package main
 
 import (
@@ -11,10 +12,10 @@ import (
     echo "github.com/labstack/echo/v5"
 )
 
-// greetings add value from query parameter name and write to request
+// Greetings add value from query parameter name and write to request
 // greetings as string. Return nil by success, and error if any error
 // detected
-func greetings(c *echo.Context) error {
+func Greetings(c *echo.Context) error {
     name := c.QueryParam("name")
     if name == "" {
        name = "Stranger"
@@ -29,8 +30,7 @@ func main() {
     e.Use(mw.RequestLogger())
     e.Use(mw.Recover())
 
-    e.GET("/hello", greetings)
-    e.GET("/panic", panicHandler)
+    e.GET("/hello", Greetings)
 
     s := http.Server{
         Addr: "[::]:8080",
