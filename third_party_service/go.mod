@@ -1,4 +1,4 @@
-module http://github.com/greetings/greetings_server
+module github.com/greetings/greetings_server
 
 go 1.25.10
 
