@@ -16,10 +16,10 @@ import (
 func Greetings(c *echo.Context) error {
     name := c.QueryParam("name")
     if name == "" {
-       name = "Stranger"
+       name = "Незнакомец"
     }
 
-    return c.String(http.StatusOK, fmt.Sprintf("Hello, %s!!!", name))
+    return c.JSON(http.StatusOK, map[string]string{"message": fmt.Sprintf("Привет, %s!!!", name)})
 }
 
 func main() {
