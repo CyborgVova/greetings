@@ -53,7 +53,7 @@ func (c *Client)Greeting(ctx context.Context, name string) (*GreetingResponse, e
     c.logger.Printf("Sending greeting request for: %s", name)
 
     // 2. Строим URL
-    url := fmt.Sprintf("%s/hello/%s", c.config.BaseURL, name)
+    url := fmt.Sprintf("%s/hello?name=%s", c.config.BaseURL, name)
     c.logger.Printf("Request URL: %s", url)
 
     // 3. Создаем запрос с контекстом
