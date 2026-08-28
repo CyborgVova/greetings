@@ -36,7 +36,7 @@ func WithBaseURL(url string) Option {
 }
 
 // WithAPIKey - устанавливает API-ключ
-func WIthAPIKey(key string) Option {
+func WithAPIKey(key string) Option {
     return func(cfg *Config) {
         cfg.APIKey = key
     }

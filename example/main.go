@@ -15,7 +15,7 @@ func main() {
         sdk.WithTimeout(5*time.Second),
     )
 
-    resp, err := client.Greerings(context.Background(), "Антон")
+    resp, err := client.Greetings(context.Background(), "Антон")
     if err != nil {
         panic(err)
     }
