@@ -1,2 +1,4 @@
 github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828140028-195136fec893 h1:3Hznf+Tm53qTvuhO338Ig5CUVFTezYQXKIG2ae3qyEo=
 github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828140028-195136fec893/go.mod h1:sMQ2ZwIpzVYyQkd0iCSCd4BPatezfpJ+qOTvkIh4Ny0=
+github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828142256-ce1fff0b1c9b h1:ArKob6NEeziPR3MF4FVUzKNaB/zqPn6J3hy7/N4XCP4=
+github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828142256-ce1fff0b1c9b/go.mod h1:sMQ2ZwIpzVYyQkd0iCSCd4BPatezfpJ+qOTvkIh4Ny0=
