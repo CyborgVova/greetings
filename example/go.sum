@@ -1,6 +1,2 @@
-github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828171643-ec7cd18b3462 h1:10qtZWPkRHED+FkVvlKSI+5zJbGXdElbEWmC/etEJs8=
-github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828171643-ec7cd18b3462/go.mod h1:sMQ2ZwIpzVYyQkd0iCSCd4BPatezfpJ+qOTvkIh4Ny0=
-github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828172622-51be5e1fffe0 h1:rX/uodt98q0/Si1L8PP7sVyP42QASyL2HEyX44EdvBc=
-github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828172622-51be5e1fffe0/go.mod h1:sMQ2ZwIpzVYyQkd0iCSCd4BPatezfpJ+qOTvkIh4Ny0=
-github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828175357-2c9fd0325217 h1:/xd3hUfjdknApN6V6H+mNLxyE0jXQVZz3f4ovUdveEM=
-github.com/cyborgvova/greetings/greetings_sdk v0.0.0-20260828175357-2c9fd0325217/go.mod h1:sMQ2ZwIpzVYyQkd0iCSCd4BPatezfpJ+qOTvkIh4Ny0=
+github.com/cyborgvova/greetings/greetings_sdk v0.1.0 h1:H3dpG2IxOIpydsWz6v5xOsMH+gInf/wyrB43wZoEqOw=
+github.com/cyborgvova/greetings/greetings_sdk v0.1.0/go.mod h1:sMQ2ZwIpzVYyQkd0iCSCd4BPatezfpJ+qOTvkIh4Ny0=

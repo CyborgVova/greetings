@@ -11,7 +11,7 @@ import (
 func main() {
     client := sdk.NewClient(
         sdk.WithBaseURL("http://localhost:8080"),
-        sdk.WithDebug(true),
+//        sdk.WithDebug(true),
         sdk.WithAPIKey("my_secret_api_key"),
         sdk.WithTimeout(5*time.Second),
     )
